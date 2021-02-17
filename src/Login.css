@@ -1,0 +1,31 @@
+.login{
+    background-image: url("https://www.wallpapertip.com/wmimgs/231-2312731_chat-background-wallpaper.jpg");
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.login_container{
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(129, 143, 158);
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgb(250, 249, 249), 0 1px;
+}
+
+.login_container > img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login_container > button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+    box-shadow: 0 1px 2px rgb(250, 249, 249), 0 1px;
+    
+
+}
