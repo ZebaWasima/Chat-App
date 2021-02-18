@@ -43,7 +43,6 @@ function Chat({ messages }) {
 
                 <div className="chat_headerInfo">
                     <h3>{user.displayName} &emsp; &emsp;<DateTimePicker onChange={onChange} value={value}/></h3>
-                   
                 </div>
 
                 <div className="chat_headerRight">
